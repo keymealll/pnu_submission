@@ -19,7 +19,7 @@ This project demonstrates how to use transfer learning with a pre-trained YOLOv8
 ```mermaid
 flowchart TD
     A[Start Application] --> B[Load Trained YOLOv8 Model]
-    B --> C[Input Image(s)]
+    B --> C[Input Images]
     C --> D[Run Inference]
     D --> E[Detect Cars in Image]
     E --> F[Display/Save Results]
